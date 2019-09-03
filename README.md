@@ -8,6 +8,9 @@ Author: Fabien Ferrero
 
 This PCB was developed to ease connection between an BluePill, and RFM95 LoRa module, AA battery and a printed antenna.
 
+Nice introduction to BluePill in french can be found on :
+https://www.supinfo.com/articles/single/8201-debuter-avec-pilule-bleu-stm32
+
 
 # PCB UCA_BluePill
 
