@@ -21,7 +21,7 @@ This PCB has been designed to enable the connection of multiple sensors, few pos
 
 
 * BluePill STM32
-https://fr.aliexpress.com/item/10pcs-ATMEGA328P-Pro-Mini-328-Mini-ATMEGA328-3-3V-16-MHz-for-Arduino-3-3V-16/32784455996.html?spm=a2g0s.13010208.99999999.276.LOMiw9
+https://fr.aliexpress.com/item/32525208361.html?spm=a2g0o.productlist.0.0.1f84d2b3ZWiJAK&algo_pvid=bccebdb6-84b0-45c2-876b-078bdb7fecf1&algo_expid=bccebdb6-84b0-45c2-876b-078bdb7fecf1-7&btsid=5111c833-8677-4ba7-b000-8c66ff8b3dd8&ws_ab_test=searchweb0_0,searchweb201602_4,searchweb201603_53
 * RFM95W
 https://fr.aliexpress.com/item/RFM95W-RFM95-868MHz-LORA-SX1276-wireless-transceiver-module-20DBM-3KM-Best-quality/32810607598.html?spm=a2g0s.9042311.0.0.bMWhGH
 
@@ -37,14 +37,14 @@ https://fr.aliexpress.com/item/3In1-BME280-GY-BME280-Digital-Sensor-SPI-I2C-Humi
 ```
  BluePill       LoRa RFM95W 
  STM32           Module
- D8          <----> RST
- MISO  (D12) <----> MISO
- MOSI  (D11) <----> MOSI
- SCK   (D13) <----> CLK
- SS    (D10) <----> SEL (Chip Select)
- D2          <----> DIO0
- D7          <----> DIO1
- D9          <----> DIO2
+ PB3         <----> RST
+ PA6         <----> MISO
+ PA7         <----> MOSI
+ PB6         <----> CLK
+ PB4         <----> SEL (Chip Select)
+ PC15        <----> DIO0
+ PC14        <----> DIO1
+ PC13        <----> DIO2
  3.3V        <----> Vcc
 
  ```
